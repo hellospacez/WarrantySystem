@@ -1,0 +1,129 @@
+/* eslint-disable */
+// this is an auto generated file. This will be overwritten
+
+export const onCreateOrder = /* GraphQL */ `
+  subscription OnCreateOrder($filter: ModelSubscriptionOrderFilterInput) {
+    onCreateOrder(filter: $filter) {
+      id
+      FirstName
+      LastName
+      Email
+      Phone
+      Address
+      State
+      Postcode
+      ReasonForFailure
+      BatterySerialNumber
+      DateofPurchas
+      PlaceofPurchase
+      LocationofPurchase
+      ItemsRunningOffBattery
+      ApplianceAverageRunTime
+      InverterDetail
+      InverterBrand
+      InverterModel
+      MaxCurrent
+      InRushCurrent
+      ChargerDetails
+      ChargerBrand
+      ChargerModel
+      ChargerType
+      MultipleChargers
+      LithiumProfile
+      UnderBonnetApplication
+      StartingOrCranking
+      ExtremeTemperatures
+      CurrentApplicationLocation
+      MovedToAnotherApplication
+      Acknowledge
+      ReceiveCommunication
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const onUpdateOrder = /* GraphQL */ `
+  subscription OnUpdateOrder($filter: ModelSubscriptionOrderFilterInput) {
+    onUpdateOrder(filter: $filter) {
+      id
+      FirstName
+      LastName
+      Email
+      Phone
+      Address
+      State
+      Postcode
+      ReasonForFailure
+      BatterySerialNumber
+      DateofPurchas
+      PlaceofPurchase
+      LocationofPurchase
+      ItemsRunningOffBattery
+      ApplianceAverageRunTime
+      InverterDetail
+      InverterBrand
+      InverterModel
+      MaxCurrent
+      InRushCurrent
+      ChargerDetails
+      ChargerBrand
+      ChargerModel
+      ChargerType
+      MultipleChargers
+      LithiumProfile
+      UnderBonnetApplication
+      StartingOrCranking
+      ExtremeTemperatures
+      CurrentApplicationLocation
+      MovedToAnotherApplication
+      Acknowledge
+      ReceiveCommunication
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const onDeleteOrder = /* GraphQL */ `
+  subscription OnDeleteOrder($filter: ModelSubscriptionOrderFilterInput) {
+    onDeleteOrder(filter: $filter) {
+      id
+      FirstName
+      LastName
+      Email
+      Phone
+      Address
+      State
+      Postcode
+      ReasonForFailure
+      BatterySerialNumber
+      DateofPurchas
+      PlaceofPurchase
+      LocationofPurchase
+      ItemsRunningOffBattery
+      ApplianceAverageRunTime
+      InverterDetail
+      InverterBrand
+      InverterModel
+      MaxCurrent
+      InRushCurrent
+      ChargerDetails
+      ChargerBrand
+      ChargerModel
+      ChargerType
+      MultipleChargers
+      LithiumProfile
+      UnderBonnetApplication
+      StartingOrCranking
+      ExtremeTemperatures
+      CurrentApplicationLocation
+      MovedToAnotherApplication
+      Acknowledge
+      ReceiveCommunication
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;

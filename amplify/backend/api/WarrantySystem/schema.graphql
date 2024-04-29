@@ -1,0 +1,47 @@
+enum State {
+  VIC
+  NSW
+  ACT
+  QLD
+  SA
+  TAS
+  WA
+  NT
+}
+
+type Order @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  FirstName: String!
+  LastName: String!
+  Email: AWSEmail!
+  Phone: AWSPhone!
+  Address: String
+  State: State
+  Postcode: String
+  ReasonForFailure: String
+  BatterySerialNumber: String
+  DateofPurchas: AWSDate
+  PlaceofPurchase: String
+  LocationofPurchase: String
+  ItemsRunningOffBattery: String
+  ApplianceAverageRunTime: String
+  InverterDetail: String
+  InverterBrand: String
+  InverterModel: String
+  MaxCurrent: String
+  InRushCurrent: String
+  ChargerDetails: String
+  ChargerBrand: String
+  ChargerModel: String
+  ChargerType: String
+  MultipleChargers: Boolean
+  LithiumProfile: Boolean
+  UnderBonnetApplication: Boolean
+  StartingOrCranking: Boolean
+  ExtremeTemperatures: Boolean
+  CurrentApplicationLocation: String
+  MovedToAnotherApplication: Boolean
+  Acknowledge: Boolean
+  ReceiveCommunication: Boolean
+}
+ 
